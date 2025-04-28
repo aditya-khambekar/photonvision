@@ -19,8 +19,9 @@ public class TOFPipeline extends CVPipeline<CVPipelineResult, TOFPipelineSetting
 
     @Override
     protected CVPipelineResult process(Frame frame, TOFPipelineSettings settings) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'process'");
+        var colorImage = frame.colorImage;
+        
+        return null;
     }
     
 }
